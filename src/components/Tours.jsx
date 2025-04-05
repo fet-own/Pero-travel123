@@ -1,8 +1,8 @@
 import styles from '../styles/Tours.module.css';
-import image1 from '../assets/4.png';
-import image2 from '../assets/5.png';
-import image3 from '../assets/6.png';
-import image4 from '../assets/7.png';
+import image1 from '../assets/4.png'; // Убедись, что файл 4.png есть
+import image2 from '../assets/5.png'; // Убедись, что файл 5.png есть
+import image3 from '../assets/6.png'; // Убедись, что файл 6.png есть
+import image4 from '../assets/7.png'; // Убедись, что файл 7.png есть
 
 function Tours() {
   const tours = [

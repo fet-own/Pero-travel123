@@ -1,5 +1,5 @@
 import styles from '../styles/Header.module.css';
-import logo from '../assets/image.webp';
+import logo from '../assets/image.webp'; // Убедись, что файл image.webp есть в src/assets/
 
 function Header() {
   return (

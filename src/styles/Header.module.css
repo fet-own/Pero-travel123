@@ -5,23 +5,21 @@
     padding: 20px 40px;
     background-color: transparent;
     position: fixed;
-    /* Фиксируем header вверху страницы */
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
-    /* Убедимся, что header поверх других элементов */
-}
-
-.headerLeft {
+  }
+  
+  .headerLeft {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 15px;
     margin-left: 20px;
-}
-
-.socialIcons {
+  }
+  
+  .socialIcons {
     position: fixed;
     right: 20px;
     top: 50%;
@@ -30,35 +28,35 @@
     flex-direction: column;
     gap: 20px;
     z-index: 20;
-}
-
-.socialIcon {
+  }
+  
+  .socialIcon {
     width: 24px;
     height: 24px;
     transition: opacity 0.3s ease;
-}
-
-.socialIcon:hover {
+  }
+  
+  .socialIcon:hover {
     opacity: 0.8;
-}
-
-.logo img {
+  }
+  
+  .logo img {
     height: 40px;
-}
-
-.nav ul {
+  }
+  
+  .nav ul {
     list-style: none;
     display: flex;
     gap: 30px;
-}
-
-.nav a {
+  }
+  
+  .nav a {
     color: white;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-}
-
-.nav a:hover {
+  }
+  
+  .nav a:hover {
     color: #007BFF;
-}
+  }
