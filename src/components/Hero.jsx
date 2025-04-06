@@ -1,7 +1,7 @@
 import styles from '../styles/Hero.module.css';
-import mainImage from '../assets/3.png'; // Убедись, что файл 3.png есть в src/assets/
-import smallImage1 from '../assets/1.png'; // Убедись, что файл 1.png есть
-import smallImage2 from '../assets/2.png'; // Убедись, что файл 2.png есть
+import mainImage from '../assets/3.png';
+import smallImage1 from '../assets/1.png';
+import smallImage2 from '../assets/2.png';
 
 function Hero() {
   return (
