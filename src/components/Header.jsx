@@ -1,16 +1,20 @@
-// Header.jsx
-import styles from './Header.module.css';
+import { Link } from 'react-router-dom';
+import styles from '../styles/Header.module.css';
+import logo from '../assets/logo.png';
 
 function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>Pero Travel</div>
+      <div className={styles.headerLeft}>
+        <div className={styles.logo}>
+          <img src={logo} alt="Pero Travel Logo" />
+        </div>
+      </div>
       <nav className={styles.nav}>
-        <ul className={styles.navList}>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#destinations">Destinations</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul>
+          <li><Link to="/">Главная</Link></li>
+          <li><Link to="/excurse">Экскурсии</Link></li>
+          <li><Link to="/cabinet">Личный кабинет</Link></li>
         </ul>
       </nav>
     </header>

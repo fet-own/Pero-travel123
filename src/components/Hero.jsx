@@ -1,7 +1,7 @@
 import styles from '../styles/Hero.module.css';
-import mainImage from '../assets/3.png';
-import smallImage1 from '../assets/1.png';
-import smallImage2 from '../assets/2.png';
+import mainImage from '';
+import smallImage1 from '../assets/576d48c691b5d5527de2d294e957c8b.jpg';
+import smallImage2 from '../assets/0785ec6a220a4654596057c785a7d.jpg';
 
 function Hero() {
   return (
